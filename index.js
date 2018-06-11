@@ -38,6 +38,7 @@ module.exports = (key, config = {}) => async (invoiceId, data = {}) => {
     company_name: 'My company',
     date_format: 'MMMM Do, YYYY',
     client_company_name: 'Client Company',
+    label_custom_notes:'Additional Notes',
     number: '12345',
     currency_position_before: true,
     language: 'en',

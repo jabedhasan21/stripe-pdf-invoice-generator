@@ -40,6 +40,11 @@
 .invoice {
   font-size: 30px;
 }
+.custom-notes {
+  padding-top: 25px;
+  font-size: 15px;
+  font-weight:bold;
+}
 
 .upper {
   text-transform: uppercase;

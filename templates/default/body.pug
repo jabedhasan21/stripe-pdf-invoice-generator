@@ -91,7 +91,7 @@ html.no-js
                   .columns
                     | #{client_company_country}
                 .row
-                  .columns.component-title
+                  .columns
                     | #{client_company_tax_or_vat_number}
           .small-offset-4.small-4.columns.total
             .row
@@ -219,9 +219,12 @@ html.no-js
               .row
                 .columns.num
                   | #{company_vat_number}
+    .row
+      if custom_notes
+        .row
+          .columns.custom-notes
+            | #{label_custom_notes}
+          .columns
+            | #{custom_notes}
 
-            if custom_notes
-              .row
-                .columns.component-title
-                  | #{custom_notes}
 
