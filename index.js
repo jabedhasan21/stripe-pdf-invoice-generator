@@ -48,5 +48,5 @@ module.exports = (key, config = {}) => async (invoiceId, data = {}) => {
     path,
     fs,
     sizeOf
-  })), { pageSize: 'letter', zoom: 3 });
+  })), { pageSize: 'letter', zoom: 1 });
 }
